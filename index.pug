@@ -1,0 +1,23 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title X'mas
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/2.0.3/pure-min.css" integrity="sha512-FEioxlObRXIskNAQ1/L0byx0SEkfAY+5fO024p9kGEfUQnACGRfCG5Af4bp/7sPNSzKbMtvmcJOWZC7fPX1/FA==" crossorigin="anonymous")
+    link(rel="stylesheet", href="style.css")
+  body
+    canvas#snow
+    .container.pure-g
+      .left.pure-u-5-12
+        h1
+          span#title The First Noel
+        .mov
+          iframe(frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        .description
+          p Song: 
+            span#song ???
+      .right.pure-u-7-12
+        p#lyrics asjdfk
+  script(src="js/snow.js")
+  script(src="js/script.js")
